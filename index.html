@@ -1,145 +1,356 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Titulo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel='stylesheet' href='/style.css' />
-  </head>
-  <body>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Eco-bloques</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/nav.css">
+</head>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-light" id="mainNavbar">
-        <div class="container">
-            <a class="navbar-brand" href="/">Pagina</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/contacto/">Contacto</a>
-                    </li>
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Eco-bloques</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Información</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Problema</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Equipo</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <header id="blog" class="masthead blog">
-      <div class="container h-75">
-        <div class="row h-100 align-items-center">
-          <div class="col-lg-7 col-sm-12 my-auto">
-            <div id="head" class="header-content mx-auto">
-              <h1 class="mb-5">Eco-Bloques</h1>
-              <div class="row p-3">
-                  <p>
-                      Material de construccion sostenible
-                  </p>
-              </div>
-              <br>
-              <br>
-            </div>
-          </div>
-          <div class="col-lg-5 col-sm-12 align-self-center">
-            <img src="img/vertical2.jpg" alt="imagen" class="rounded-circle center-block img-fluid">
-          </div>
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/ecology.png">
+            <h1>Eco-Bloques</h1><hr class="star-light" />
+            <h2 class="font-weight-light mb-0">Alternativa temporal para los Desechos No Reciclables</h2>
         </div>
-      </div>
     </header>
+    
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">Información</h2>
+            <hr class="star-dark mb-5">
+		</div>
+		<div class="col-12">
+            <div class="row">
+				<div class="col-12">
+                  <nav>
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                      <a class="nav-item nav-link active" id="nav-intro-tab" data-toggle="tab" href="#nav-intro" role="tab" aria-controls="nav-Introduccion" aria-selected="true">
+						<div class="d-block mx-auto portfolio-item ">
+							<div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+								<div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Eco-bloque?</div>
+							</div>
+							<img class="img-fluid" src="assets/img/portfolio/question.png">
+						</div>
+					  </a>
+                      <a class="nav-item nav-link" id="nav-contents-tab" data-toggle="tab" href="#nav-contents" role="tab" aria-controls="nav-contenidos" aria-selected="false">
+						<div class="d-block mx-auto portfolio-item ">
+							<div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+								<div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Qué contiene?</div>
+							</div>
+							<img class="img-fluid" src="assets/img/portfolio/container.png">
+						</div>
+					  </a>
+                      <a class="nav-item nav-link" id="nav-construction-tab" data-toggle="tab" href="#nav-construction" role="tab" aria-controls="nav-construccion" aria-selected="false">
+						<div class="d-block mx-auto portfolio-item ">
+							<div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+								<div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Cómo lo construyo?</div>
+							</div>
+							<img class="img-fluid" src="assets/img/portfolio/construction.png">
+						</div>
+					  </a>
+                      <a class="nav-item nav-link" id="nav-validity-tab" data-toggle="tab" href="#nav-validity" role="tab" aria-controls="nav-validacion" aria-selected="false">
+						<div class="d-block mx-auto portfolio-item ">
+							<div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+								<div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Cómo sé que lo hice correctamente?</div>
+							</div>
+							<img class="img-fluid" src="assets/img/portfolio/verification.png">
+						</div>
+					  </a>
+                      <a class="nav-item nav-link" id="nav-deliver-tab" data-toggle="tab" href="#nav-deliver" role="tab" aria-controls="nav-entrega" aria-selected="false">
+						<div class="d-block mx-auto portfolio-item ">
+							<div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+								<div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Dónde lo entrego?</div>
+							</div>
+							<img class="img-fluid" src="assets/img/portfolio/deliver.png">
+						</div>
+					  </a>
+                      <a class="nav-item nav-link" id="nav-uses-tab" data-toggle="tab" href="#nav-uses" role="tab" aria-controls="nav-usos" aria-selected="false">
+						<div class="d-block mx-auto portfolio-item ">
+							<div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+								<div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Qué se hace con un eco-bloque?</div>
+							</div>
+							<img class="img-fluid" src="assets/img/portfolio/projects.png">
+						</div>
+					  </a>
+                    </div>
+                  </nav>
+				  
+				  <!--Tab content-->
+                  <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-intro" role="tabpanel" aria-labelledby="nav-Introduccion">
+                      <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Eco-bloques</h2>
+                                <hr class="star-dark">
+                                <p class="mb-5">Los eco-bloques son botellas plásticas de 1.5 litros hasta 2.5 litros (idealmente).
+                                    Contienen todo tipo de residuos no reciclables o desechos que no son recibios por centros de acopio. </p>
+                                <p class="mb-5">También conocidas como eco-botellas o eco-ladrillos. </p>
+                            </div>
+                        </div>
+					  </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contents" role="tabpanel" aria-labelledby="nav-contenidos">
+						<div class="container text-center">
+							<div class="row">
+								<div class="col-lg-8 mx-auto">
+									<h2 class="text-uppercase text-secondary mb-0">Contenidos de un <br> eco-bloque</h2>
+									<div><hr class="star-dark mb-5"></div>
+									<p class="mb-5">Se puede agregar todo lo que sea plástico: paquetes de galletas, confites, tubos de pasta de dientes,
+											mangos de cepillos de dientes, paquetes de medicamentos, entre otros.</p>
+									<p class="mb-5">Los paquetes que se coloquen dentro de la botella deben estar totalmente limpios y secos.</p>
+									<p class="mb-5">No se deben utilizar: residuos orgánicos, papel, cartón o baterías.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="tab-pane fade" id="nav-construction" role="tabpanel" aria-labelledby="nav-construccion">
+						<div class="container text-center">
+							<div class="row">
+								<div class="col-lg-8 mx-auto">
+									<h2 class="text-uppercase text-secondary mb-0">Instrucciones</h2>
+									<hr class="star-dark mb-5">
+									<p class="mb-5">1. Lava y seca muy bien tu botella plástica y guarda la tapa.</p>
+									<img class="img-fluid mb-5" src="assets/img/steps/step1.jpg" width="128px">
+									<p class="mb-5">2. Introduce en la botella residuos no reciclables y no peligrosos.
+											Es muy importante asegurarte que los desechos que introduzcas estén limpios y secos.</p>
+									<p class="mb-5">3. Consigue tu herramienta de trabajo: un palo de madera, una cuchara o una varilla del tamaño de la botella.</p>
+									<p class="mb-5">4. Con la ayuda de tu herramienta empuja los residuos hasta el fondo de la botella. <br>
+										Comprime los residuos, para no dejar ningún espacio de aire entre ellos.
+										Repite el proceso hasta tener una base de botella muy compacta.
+										El eco-bloque debe quedar lo más duro y compacto posible.</p>
+									<img class="img-fluid mb-5" src="assets/img/steps/step4.jpg" width="128px">
+									<p class="mb-5">5. Ejercer presión hasta el fondo. Comprimir hasta llenar.</p>
+									<img class="img-fluid mb-5" src="assets/img/steps/step5a.jpg" width="128px">
+									<p class="mb-5">Cuando esté llena y con el material en su interior totalmente compacto, tapa la botella.
+										Para asegurarte de que está bien hecho, intenta apretarlo; si la botella se deforma, quiere decir
+										que aún se pueden introducir más residuos en su interior, haciendo presión con tu herramienta.
+									</p>
+									<img class="img-fluid mb-5" src="assets/img/steps/step5b.jpg" width="128px">
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="tab-pane fade" id="nav-validity" role="tabpanel" aria-labelledby="nav-validacion">
+						<div class="container text-center">
+							<div class="row">
+								<div class="col-lg-8 mx-auto">
+									<h2 class="text-uppercase text-secondary mb-0">Verificación</h2>
+									<hr class="star-dark mb-5">
+									<img class="img-fluid mb-5" src="assets/img/steps/weight.jpg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-deliver" role="tabpanel" aria-labelledby="nav-entrega">
+						<div class="container text-center">
+							<div class="row">
+								<div class="col-lg-8 mx-auto">
+									<h2 class="text-uppercase text-secondary mb-0">Centros de Acopio</h2>
+									<hr class="star-dark mb-5">
+									<p class="mb-5"><strong>San José</strong><br>
+										Escuela de Química, UCR - San Pedro (no aceptan actualmente) - 25118520<br>
+										Christian Arce - San Juan de Tibás - 86109078<br>
+										Angélica Méndez - San Vicente de Moravia - 84000764<br>
+									</p>
+									<p class="mb-5"><strong>Heredia</strong><br>
+										Maribel Gutiérrez - Horquetas de Sarapiquí - 63267789<br>
+										Mari Gonzales - San Pablo - 89232528<br>
+										Daniel Rojas - San Jocecito, San Rafael de Heredia - 83949147<br>
+										Colegio Santo Domingo de Heredia - 72918414<br>
+									</p>
+									<p class="mb-5"><strong>Alajuela</strong><br>
+										Edgar Palma - Barrio San José de Alajuela - 60564916<br>
+										Alina Víquez - Barrio el Carmen - 83036267<br>
+										Coyolar de Orotina - Víctor Arce - 87806390<br>
+									</p>
+									<p class="mb-5"><strong>Cartago</strong><br>
+										Biblioteca Pública, Distrito Occidental - 25523126<br>
+									</p>
+									<p class="mb-5"><strong>Puntarenas</strong><br>
+										Raquel Parrales - Tárcoles, Garabito - 89538636<br>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="tab-pane fade" id="nav-uses" role="tabpanel" aria-labelledby="nav-usos">
+						<div class="container text-center">
+							<div class="row">
+								<div class="col-lg-8 mx-auto">
+									<h2 class="text-uppercase text-secondary mb-0">Proyectos hechos con eco-bloques</h2>
+									<hr class="star-dark mb-5">
+									<a class="mb-5" href="https://www.teletica.com/227422_semana-ambiental-ucr-sea-parte-de-la-iniciativa-de-los-eco-bloques" target="!blank">
+										Semana Ambiental UCR: Sea parte de la iniciativa de los eco-bloques
+									</a><br><br>
+									<a href="https://www.nacion.com/ciencia/medio-ambiente/plastico-sera-utilizado-para-producir-bloques-de/AJTU3MQLCVAYJPTV7Z6KYGXOQQ/story/" target="!blank">
+										Plástico será utilizado para producir bloques de concreto y otros materiales de construcción
+									</a><br><br>
+									<a href="https://www.ucr.ac.cr/noticias/2018/06/09/modificar-los-habitos-de-consumo-es-una-tarea-urgente.html" target="!blank">
+										Modificar los hábitos de consumo es una tarea urgente
+									</a><br><br>
+									<a href="https://amprensa.com/2019/06/sumes-a-la-iniciativadeecobloques-conozca-aqui-los-centros-de-acopio/" target="!blank">
+										¡Súmese a la iniciativa de Eco-bloques! Conozca aquí los centros de acopio
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+                  </div>
+                
+                </div>
+				<!--
+                <div class="col-md-2 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-1">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Eco-bloque?</div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/question.png"></a>
+                </div>
+                <div class="col-md-2 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-2">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Qué contiene?</div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/container.png"></a>
+                </div>
+                <div class="col-md-2 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-3">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Cómo lo construyo?</div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/construction.png"></a>
+                </div>
+                <div class="col-md-2 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-4">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Cómo sé que lo hice correctamente?</div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/verification.png"></a>
+                </div>
+                <div class="col-md-2 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-5">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Dónde lo entrego?</div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/deliver.png"></a>
+                </div>
+                <div class="col-md-2 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-6">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white">¿Qué se hace con un eco-bloque?</div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/projects.png"></a>
+                </div>
+				-->
+            </div>
+        </div>
+    </section>
+    <section id="about" class="bg-primary text-white mb-0">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-white">Problema ambiental</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead">En Costa Rica se consumen 666 millones de botellas plásticas al año. <br><br>
+                        Una familia costarricense de cuatro o cinco personas utiliza en promedio 3.500 envases en el lapso de un año. Una botella plástica dura aproximadamente 1.000 años en degradarse.
+                    </p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">En este momento, se recicla menos del 2% del plástico, y este se queda en los depósitos, rellenos, ríos y playas del país. <br><br>
+                        En Costa Rica se desechan 550 toneladas diarias de plástico de las cuales se reutiliza el 9 % solamente, según datos de la UCR.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer text-center" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Emmanuel Pérez</h4>
+                    <img src="assets/img/team/EmmanuelPerezPic.jpg" width="90" height="90">
+                    <br><br>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="" target="!blank"><i class="fa fa-envelope fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="" target="!blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="" target="!blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="" target="!blank"><i class="fa fa-facebook fa-fw"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Felipe Ovares</h4>
+                        <img src="assets/img/team/FelipeOvaresPic.jpg" width="90" height="90">
+                        <br><br>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="" target="!blank"><i class="fa fa-envelope fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="" target="!blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="" target="!blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="" target="!blank"><i class="fa fa-facebook fa-fw"></i></a></li>
+                        </ul>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Daniel Delgado</h4>
+                        <img src="assets/img/team/DanielDelgadoPic.jpg" width="90" height="90">
+                        <br><br>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="mailto:delgado.jdds@gmail.com" target="!blank"><i class="fa fa-envelope fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.linkedin.com/in/jdanieldelgado/" target="!blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    
 
-    <div class="container">
-      <div class="row py-5">
-        <div class="col-12">
-          <h1>Eco no se que</h1>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Proyectos hechos con eco-bloques</h2>
+                                <hr class="star-dark mb-5">
+                                <a class="mb-5" href="https://www.teletica.com/227422_semana-ambiental-ucr-sea-parte-de-la-iniciativa-de-los-eco-bloques" target="!blank">
+                                    Semana Ambiental UCR: Sea parte de la iniciativa de los eco-bloques
+                                </a><br><br>
+                                <a href="https://www.nacion.com/ciencia/medio-ambiente/plastico-sera-utilizado-para-producir-bloques-de/AJTU3MQLCVAYJPTV7Z6KYGXOQQ/story/" target="!blank">
+                                    Plástico será utilizado para producir bloques de concreto y otros materiales de construcción
+                                </a><br><br>
+                                <a href="https://www.ucr.ac.cr/noticias/2018/06/09/modificar-los-habitos-de-consumo-es-una-tarea-urgente.html" target="!blank">
+                                    Modificar los hábitos de consumo es una tarea urgente
+                                </a><br><br>
+                                <a href="https://amprensa.com/2019/06/sumes-a-la-iniciativadeecobloques-conozca-aqui-los-centros-de-acopio/" target="!blank">
+                                    ¡Súmese a la iniciativa de Eco-bloques! Conozca aquí los centros de acopio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-12">
-          <h2>Ventas de acuerdo al mes</h2>
-          <hr>
-        </div>
-      </div>
     </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
 
-    <section>
-        <div class="container-fluid h-100 color1">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-8 text-center">
-                    <div class="p-5">
-                        <h1>Que es un eco-bloque?</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ex mollitia cum ab maxime, dolores velit provident excepturi quasi eos officiis incidunt itaque ut quaerat tenetur inventore non. Vero, repellat.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container-fluid h-100 color2">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-8 text-center">
-                    <div class="p-5">
-                        <h1>
-                            Nota Introductoria
-                        </h1>
-                        <p>
-                            El aumento en la oferta de energía de fuentes renovables y la deuda ecológica que desde el 2011
-                            ha ido en disminución, son indicadores del camino en pro del ambiente que han decidido tomar los
-                            costarricenses. Sin embargo, hay acciones que podrían mejorar la situación actual en este ámbito.
-                            Según la UCR, en el país se consumen anualmente 1,7 millones de botellas plásticas al día, es decir,
-                            622 millones anualmente; de esta cantidad, menos del 2% se recicla.
-                            La conciencia ambiental en la sociedad va creciendo poco a poco y en parte se traduce en la
-                            implementación de proyectos e iniciativas en pro del ambiente. Las eco-botellas(también conocidas
-                            como ecobloques o ecoladrillos) son una de ellas, porque para crearlas se combinan dos tipos de
-                            desechos que se producen en el hogar: los empaques plásticos y las botellas PET (polyethylene
-                            terephthalate).
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container-fluid h-100 color3">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-8 text-center">
-                    <div class="p-5">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ex mollitia cum ab maxime, dolores velit provident excepturi quasi eos officiis incidunt itaque ut quaerat tenetur inventore non. Vero, repellat.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container-fluid h-100 color4">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-8 text-center">
-                    <div class="p-5">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ex mollitia cum ab maxime, dolores velit provident excepturi quasi eos officiis incidunt itaque ut quaerat tenetur inventore non. Vero, repellat.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-
-  </body>
 </html>
